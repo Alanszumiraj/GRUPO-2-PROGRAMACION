@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+   <script src="https://kit.fontawesome.com/8e4ddfe314.js" crossorigin="anonymous"></script>
+   
+    <title>Register</title>
+</head>
+<body>
+   <form class="formulario"method="POST">
+        <h1>Registrarse</h1>
+        <div class="contenedor">
+            <div class="input-contenedor">
+                <i class="fas fa-user"></i>
+                <input type ="text" placeholder="Nombre Completo" name="name">   
+            </div>
+                <div class="input-contenedor">
+                <i class="fas fa-envelope-open-text"></i>
+                <input type="text" placeholder="Correo electronico"name="mail">
+                </div>
+                    <div class="input-contenedor"> 
+                    <i class="fas fa-key"></i>
+                    <input type="password" placeholder="contraseña"name="password">
+                    </div>
+        
+            <input type="submit" value="Registrate" class="bottom">
+            <p>Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad</p>
+            <p>¿Ya tienes una cuenta?<a class="link" href="/users/login">Iniciar sesion</a></p>
+        </div>
+    </form>
+</body>
+</html>
