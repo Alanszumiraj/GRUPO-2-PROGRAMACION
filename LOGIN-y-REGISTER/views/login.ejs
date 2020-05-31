@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <script src="https://kit.fontawesome.com/8e4ddfe314.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+
+<header id="header">
+    <img src="/images/home/imagenes-home/logo-img.webp" alt="logo" id="logo">
+    <div id="user-div">
+        <img src="/images/home/imagenes-home/search-img.png" alt="search" id="search">
+        <a href="register"><img src="/images/home/imagenes-home/user-img.png" alt="user" id="user"></a>
+        <a href="./views/carrito.html"><img src="/images/home/imagenes-home/shop-img.png" alt="shop" id="shop"></a>
+    </div>
+</header>
+<nav id="nav">
+    <a href="" id="novedades">NOVEDADES</a>
+    <div class="dropdown" id="arma-tu-pc">
+        <button class="dropbtn">ARMÁ TU PC</button>
+        <div class="dropdown-content">
+            <a href="#">INTEL</a>
+            <a href="#">AMD</a>
+        </div>
+    </div>
+    <a href="./views/product.html" id="productos">PRODUCTOS</a>
+    <a href="" id="contactanos">CONTACTANOS</a>
+    <a href="" id="ayuda">AYUDA</a>
+</nav>
+
+<div class="list-controls">
+
+</div>
+
+
+<body>
+    <form class="formulario" action="/users/profile" method="POST">
+        <h1>Login</h1>
+        <div class="contenedor">
+       
+            <div class="input-contenedor">
+                <i class="fas fa-envelope-open-text"></i>
+                <input type="text" placeholder="Correo electronico" name="email">
+            </div>
+            <div class="input-contenedor">
+                <i class="fas fa-key"></i>
+                <input type="password" placeholder="contraseña" name="password">
+            </div>
+
+            <input type="submit" value="Entrar" class="bottom">
+            <p>Al aceptar, aceptas nuestras Condiciones de uso y Politica de privacidad</p>
+            <p>¿No tienes una cuenta?<a class="link" href="register">Registrate</a></p>
+        </div>
+    </form>
+</body>
+
+</html>

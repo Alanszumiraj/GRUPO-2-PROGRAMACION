@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+   <script src="https://kit.fontawesome.com/8e4ddfe314.js" crossorigin="anonymous"></script>
+   
+    <title>Register</title>
+</head>
+<body>
+
+    <header id="header">
+        <img src="/images/home/imagenes-home/logo-img.webp" alt="logo" id="logo">
+        <div id="user-div">
+            <img src="/images/home/imagenes-home/search-img.png" alt="search" id="search">
+            <a href="./views/user.html"><img src="/images/home/imagenes-home/user-img.png" alt="user" id="user"></a>
+            <a href="./views/carrito.html"><img src="/images/home/imagenes-home/shop-img.png" alt="shop" id="shop"></a>
+        </div>
+    </header>
+    <nav id="nav">
+        <a href="" id="novedades">NOVEDADES</a>
+        <div class="dropdown" id="arma-tu-pc">
+            <button class="dropbtn">ARMÁ TU PC</button>
+            <div class="dropdown-content">
+                <a href="#">INTEL</a>
+                <a href="#">AMD</a>
+            </div>
+        </div>
+        <a href="productos" id="productos">PRODUCTOS</a>
+        <a href="" id="contactanos">CONTACTANOS</a>
+        <a href="" id="ayuda">AYUDA</a>
+    </nav>
+    
+    <div class="list-controls">
+    
+    </div>
+
+    <form class="formulario" method="POST">
+        
+        <h1>Registrarse</h1>
+        <div class="contenedor">
+            <div class="input-contenedor">
+                <i class="fas fa-user"></i>
+                <input type ="text" placeholder="Nombre Completo" name="name">   
+            </div>
+                <div class="input-contenedor">
+                <i class="fas fa-envelope-open-text"></i>
+                <input type="text" placeholder="Correo electronico" name="email">
+                </div>
+                    <div class="input-contenedor"> 
+                    <i class="fas fa-key"></i>
+                    <input type="password" placeholder="contraseña" name="password">
+                    </div>
+            
+            <input type="submit" value="Registrate" class="bottom">
+            <p>Al registrarte, aceptas nuestras Condiciones de uso y Politica de privacidad</p>
+            <p>¿Ya tienes una cuenta?<a class="link" href="login">Iniciar sesion</a></p>
+        </div>
+    </form>
+</body>
+</html>
